@@ -14,7 +14,7 @@ print('pace in minutes = ', paceInMinutes)
 paceInSeconds = seconds/miles
 print('pace in seconds = ', paceInSeconds)
 
-# what is the average speed?
+# what is the average speed in MPH (miles per hour)?
 speed = miles/hours
 print('speed = ', speed, 'miles per hour')
 
