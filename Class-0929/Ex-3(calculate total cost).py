@@ -4,3 +4,12 @@
 
 # create a function to do above
 # def calculateCost(numCupcakes)
+
+def calculateCost(numCupcakes):
+
+    totalCostDollar = numCupcakes * 1 + (numCupcakes * 98) // 100
+    totalCostCents = (numCupcakes * 98) % 100
+
+    print('total cost of 10 cupcakes is', totalCostDollar, 'and', totalCostCents, 'cents')
+
+calculateCost(10)
