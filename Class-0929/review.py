@@ -5,8 +5,9 @@
 #type(3) -> int
 #type(‘hello’) -> string
 #String concat: + *
-#Operator: /, //, %
+#Operator:
+# /
+# //
+# %
 #Github
 #PyCharm
-
-
