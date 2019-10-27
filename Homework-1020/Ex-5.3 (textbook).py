@@ -11,18 +11,19 @@ they form what is called a “degenerate” triangle.)
 and uses is_triangle to check whether sticks with the given lengths can form a triangle.
 """
 
-c = int(input())
-b = int(input())
-a = int(input())
-
-def is_triangle(a,b,c):
-    if a + b < c:
-        print("No")
-    elif b + c < a:
-        print("No")
-    elif a + c < b:
-        print("No")
-    else:
+def is_triangle(x, y, z):
+    if x + y >= z and x + z >= y and y + z >= x:
         print("Yes")
+    else:
+        print("No")
 
-is_triangle(a, b, c)
+
+def triangle_cool():
+    x = int(input("Input the length of the triangle's first side: "))
+    y = int(input("Input the length of the next side: "))
+    z = int(input("input the length of the last side: "))
+
+    is_triangle(x, y, z)
+
+
+triangle_cool()
