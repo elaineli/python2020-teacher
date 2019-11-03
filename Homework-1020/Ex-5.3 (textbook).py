@@ -22,7 +22,6 @@ def triangle_cool():
     x = int(input("Input the length of the triangle's first side: "))
     y = int(input("Input the length of the next side: "))
     z = int(input("input the length of the last side: "))
-
     is_triangle(x, y, z)
 
 
